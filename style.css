@@ -122,7 +122,15 @@ body{
     margin-left: 15px;
     margin-bottom: 25px;
 }
-.exProTxt{
+.conpProTxt{
     font-size: 20px;
     margin-left: 15px;
+}
+
+.exproTxt{
+    margin-left: 15px;
+}
+
+.exproTxt1, .exproTxt2{
+    margin-left: 50px;
 }
