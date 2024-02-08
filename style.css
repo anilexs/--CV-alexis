@@ -30,7 +30,7 @@ body{
     background-color: white;
     margin: 15px auto 30px auto;
     width: 1200px;
-    height: 1500px;
+    height: 1600px;
     display: flex;
 }
 .left{
@@ -107,17 +107,25 @@ body{
     align-items: center;
     justify-content: center;
 }
-.competencePro, .experienPro{
+.competencePro, .experienPro, .intere{
     width: 95%;
     margin: auto;
 }
-.competencePro > span, .experienPro > span{
+.competencePro > span, .experienPro > span, .intere > span{
     display: block;
+    font-weight: 700;
 }
-.competencePro hr, .experienPro hr{
+.experienPro > span{
+    font-size: 20px;
+}
+.competencePro hr, .experienPro hr, .intere hr{
     margin-bottom: 20px;
 }
 
+
+.intere{
+    margin-top: 50px;
+}
 .puceExPro{
     margin-left: 15px;
     margin-bottom: 25px;
@@ -133,4 +141,15 @@ body{
 
 .exproTxt1, .exproTxt2{
     margin-left: 50px;
+}
+.cdPro{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.cdprotxt{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.space{
+    margin-right: 20px;
 }
